@@ -7,7 +7,7 @@ export const days: DayData[] = [
     title: "נחיתה רכה",
     subtitle: "סוד מקומי",
     region: "salzburg",
-    heroImage: "https://images.unsplash.com/photo-1609016267669-c51e8e8f6e88?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/UV3RF73x-v0?auto=format&fit=crop&w=1200&q=80",
     description: "יום ראשון — נחיתה, התארגנות, ונגיסה ראשונה מהאוסטריה האמיתית. אגם יגרזה הוא הסוד שהמקומיים שומרים לעצמם: אגם קטן, פסטורלי ושקט שנמצא ממש ליד בסיס הלינה. הליכה קלילה של 45 דקות סביב האגם — מתאימה גם אחרי לילה בלי שינה במטוס.",
     attractions: [
       {
@@ -18,7 +18,7 @@ export const days: DayData[] = [
         openHours: "פתוח תמיד",
         price: "חינמי",
         tip: "הגיעו לעת ערב — האגם זוהר בצהוב-כסף. מקומיים מגיעים עם בירה ביום שישי. ברבורים!",
-        image: "https://images.unsplash.com/photo-1606185540834-d0e280f66d06?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/LcMLt2tE4kY?auto=format&fit=crop&w=800&q=80",
         tag: "טבע",
       },
     ],
@@ -57,7 +57,7 @@ export const days: DayData[] = [
     title: "מתחת ומעל לאדמה",
     subtitle: "קלאסיקה מחייבת",
     region: "salzburg",
-    heroImage: "https://images.unsplash.com/photo-1548032885-b5e38734688a?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/DbRoPEKtedo?auto=format&fit=crop&w=1200&q=80",
     description: "היום הזה הוא שילוב ייחודי: בבוקר יורדים מתחת לאדמה למכרות מלח מרהיבים, ואחר הצהריים עולים לטירת אבירים על צוק גבוה. שני עולמות שונים לחלוטין — ושניהם מדהימים.",
     attractions: [
       {
@@ -108,7 +108,7 @@ export const days: DayData[] = [
     title: "הר הרוחות ומים גועשים",
     subtitle: "אקשן + נקיק",
     region: "salzburg",
-    heroImage: "https://images.unsplash.com/photo-1569000188889-8d4ee80ccce2?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/RZAQA9OxyHQ?auto=format&fit=crop&w=1200&q=80",
     description: "יום מלא אדרנלין בשני מוקדים: פארק שעשועים אלפיני בפסגת הר, ואחר הצהריים — הליכה מדהימה על גשרי עץ בתוך נקיק דרמטי.",
     attractions: [
       {
@@ -119,7 +119,7 @@ export const days: DayData[] = [
         openHours: "9:00-17:30 (קיץ)",
         price: "כ-€20 עם רכבל",
         tip: "פארק שעשועים ענק בפסגה המכוסה ביערות. משחקי עץ, טובוגן, חבלים ומגלשות. ילדים יכולים לבלות שעות.",
-        image: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/NMmxCtO1xqM?auto=format&fit=crop&w=800&q=80",
         tag: "פארק",
       },
       {
@@ -158,7 +158,7 @@ export const days: DayData[] = [
     title: "הדרך היפה באירופה",
     subtitle: "קרחונים + חיות בר",
     region: "salzburg",
-    heroImage: "https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/rZK9yr6ChFo?auto=format&fit=crop&w=1200&q=80",
     description: "יום שלם של נסיעה בדרך הנוף הגדולה של אוסטריה — כביש גרוסגלוקנר. קרחונים ממש ליד הכביש, מרמיטות, נופים מחרידים. ועוד פארק חיות בר מקסים בסוף הדרך.",
     attractions: [
       {
@@ -169,7 +169,7 @@ export const days: DayData[] = [
         openHours: "מאי-נובמבר (לפי מזג אוויר)",
         price: "€38 לרכב",
         tip: "עצרו בכל נקודות התצפית! Franz-Josefs-Höhe — נקודת תצפית על קרחון Pasterze. מרמיטות חינמיות לאורך הדרך.",
-        image: "https://images.unsplash.com/photo-1564760290292-23341e4df6ec?auto=format&fit=crop&w=1200&q=80",
+        image: "https://images.unsplash.com/rZK9yr6ChFo?auto=format&fit=crop&w=800&q=80",
         website: "https://www.grossglockner.at/",
         tag: "נוף",
       },
@@ -208,7 +208,7 @@ export const days: DayData[] = [
     title: "גלויות ואגמים",
     subtitle: "הכפר הכי מצולם + הסוד שמאחוריו",
     region: "salzburg",
-    heroImage: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/AwXz7lGkOqM?auto=format&fit=crop&w=1200&q=80",
     description: "בוקר — האלשטאט, הכפר הכי יפה ומצולם באוסטריה (ובעולם!). טיפ: תגיעו ב-8:30 לפני השיירות. אחר הצהריים — הסוד: אגם גוסאו, יפה ודרמטי פי 10 עם קרחון ברקע.",
     attractions: [
       {
@@ -219,7 +219,7 @@ export const days: DayData[] = [
         openHours: "פתוח תמיד",
         price: "חינמי (חניה בתשלום)",
         tip: "הגיעו ב-8:00-8:30 לפני האוטובוסים של התיירים. לאחר 10:00 — עומס אדיר. מומלץ מאוד לעלות לנקודת התצפית העליונה ברכבל.",
-        image: "https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/AwXz7lGkOqM?auto=format&fit=crop&w=800&q=80",
         website: "https://www.hallstatt.net/",
         tag: "ייחודי",
       },
@@ -231,7 +231,7 @@ export const days: DayData[] = [
         openHours: "פתוח תמיד",
         price: "חינמי (חניה €5)",
         tip: "פחות ידוע מהאלשטאט אבל הרבה יותר יפה עם קרחון Dachstein ברקע. אפשר לשכור סירה (€15 לחצי שעה). מסלול הליכה נוח לכל המשפחה.",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/ELZleqyQcQE?auto=format&fit=crop&w=800&q=80",
         tag: "אגם",
       },
     ],
@@ -259,7 +259,7 @@ export const days: DayData[] = [
     title: "יום עירוני",
     subtitle: "זלצבורג — מוזיקה, מדע ומפתעות",
     region: "salzburg",
-    heroImage: "https://images.unsplash.com/photo-1599140849279-1014532882fe?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/oExluu6sL2Q?auto=format&fit=crop&w=1200&q=80",
     description: "יום שלם בעיר זלצבורג. מוזיאון מדע עצום לילדים בבוקר, טיול רגלי בעיר העתיקה, ולקינוח — ארמון עם מזרקות פתעות שמשפריצות על המבקרים!",
     attractions: [
       {
@@ -330,7 +330,7 @@ export const days: DayData[] = [
     title: "אקשן ופינוק",
     subtitle: "מגלשות הרים + ספא משפחתי",
     region: "salzburg",
-    heroImage: "https://images.unsplash.com/photo-1535083783855-aaab0b2f4a3e?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1200&q=80",
     description: "יום של קיצוניות מתנגשות: בבוקר — מגלשות הרים מהירות, אחר הצהריים — פארק מים מחומם עם מגלשות ענק ומגלשת לופ. יום שילדים מדברים עליו עוד שנים.",
     attractions: [
       {
@@ -380,7 +380,7 @@ export const days: DayData[] = [
     title: "מעבר לטירול דרך המלך",
     subtitle: "מפלי קרימל — המפלים הגבוהים באירופה",
     region: "transit",
-    heroImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/cVb82O4W-94?auto=format&fit=crop&w=1200&q=80",
     description: "יום מעבר מזלצבורג לטירול — אבל לא סתם מעבר. בדרך עוצרים במפלי קרימל, המפלים הגבוהים באירופה (380 מטר!). זה שיא של השבוע הראשון.",
     attractions: [
       {
@@ -391,7 +391,7 @@ export const days: DayData[] = [
         openHours: "8:00-18:00 (מאי-אוקטובר)",
         price: "€5 כניסה + €5 חניה",
         tip: "הביאו פונצ'ו/בגדי גשם — תירטבו אפילו ממרחק. שביל הסלול עולה בין כל שלושת המפלסים. לא לדלג על המפלס השלישי — הכי עוצמתי!",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+        image: "https://images.unsplash.com/PmzjVYzYnJA?auto=format&fit=crop&w=800&q=80",
         website: "https://www.wasserfaelle-krimml.at/",
         tag: "מפל",
       },
@@ -431,7 +431,7 @@ export const days: DayData[] = [
     title: "ברוכים הבאים לטירול",
     subtitle: "ארמון מעץ בפסגה",
     region: "tyrol",
-    heroImage: "https://images.unsplash.com/photo-1609016267669-c51e8e8f6e88?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/a9qsM5Z1Sbg?auto=format&fit=crop&w=1200&q=80",
     description: "יום ראשון בטירול — לא רצים, מכירים את הסביבה. עולים ברכבל לטירת עץ האשוח, מתחם שעשועים ענק הבנוי כולו מעץ על פסגה, ובערב — גלייה ברצועת הצילרטל.",
     attractions: [
       {
@@ -442,7 +442,7 @@ export const days: DayData[] = [
         openHours: "9:00-17:00 (קיץ)",
         price: "כ-€18 עם רכבל",
         tip: "מסלול כדורי עץ (Kugelbahn) — ילדים מעבירים שם שעות. כל המתחם בנוי עץ על פסגה ירוקה. נוף מדהים.",
-        image: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/RZAQA9OxyHQ?auto=format&fit=crop&w=800&q=80",
         tag: "פארק",
       },
     ],
@@ -470,7 +470,7 @@ export const days: DayData[] = [
     title: "אינסברוק וקריסטלים",
     subtitle: "עיר + קסם נוצץ",
     region: "tyrol",
-    heroImage: "https://images.unsplash.com/photo-1561551782-44ab3b5b4acb?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/JD4QZu7kLPA?auto=format&fit=crop&w=1200&q=80",
     description: "בוקר בעולם הקריסטלים המדהים של סברובסקי, אחר הצהריים — העיר ההיסטורית אינסברוק עם הגג הזהוב המפורסם ורכבל שעולה ממרכז העיר להר.",
     attractions: [
       {
@@ -493,7 +493,7 @@ export const days: DayData[] = [
         openHours: "פתוח תמיד (מרחב ציבורי)",
         price: "חינמי (כניסה לגג €5 לתצוגה)",
         tip: "הגג הזהב עשוי 2657 אריחי נחושת מוזהבת. עיר העתיקה קומפקטית ויפה. קפה בגינה מרהיב.",
-        image: "https://images.unsplash.com/photo-1567597198989-4d20b5d9a5f5?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/JD4QZu7kLPA?auto=format&fit=crop&w=800&q=80",
         tag: "עיר",
       },
       {
@@ -504,7 +504,7 @@ export const days: DayData[] = [
         openHours: "8:30-17:30",
         price: "€33 מבוגר, €20 ילד (עלייה-ירידה)",
         tip: "רכבל שיוצא ממש ממרכז העיר ועולה לגובה 2300 מ'! נוף מעל העיר והאלפים. אחרי הסברובסקי זה אפילו אם יש כוח.",
-        image: "https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/ScWTdlHE1b0?auto=format&fit=crop&w=800&q=80",
         tag: "נוף",
       },
     ],
@@ -532,7 +532,7 @@ export const days: DayData[] = [
     title: "הפיורד של טירול",
     subtitle: "אגם אכן + AirRofan",
     region: "tyrol",
-    heroImage: "https://images.unsplash.com/photo-1455156218388-5e61b526818b?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/LcMLt2tE4kY?auto=format&fit=crop&w=1200&q=80",
     description: "אגם אכן — הסוד הכי גדול שרוב הישראלים מפספסים. נראה כמו פיורד נורווגי, ענק ורגוע. המקומיים שטים בסירות ונוסעים ברכבת קיטור. ורכבל רופאן עם AirRofan — גלישת עיט שמסתכלים ממנה למטה על האגם.",
     attractions: [
       {
@@ -543,7 +543,7 @@ export const days: DayData[] = [
         openHours: "פתוח תמיד",
         price: "חינמי (סירה בתשלום)",
         tip: "האגם הגדול ביותר בטירול. ישיבה על הגדה ושכירת אופניים לאורך החוף. מקומיים שוחים כאן ביולי-אוגוסט.",
-        image: "https://images.unsplash.com/photo-1455156218388-5e61b526818b?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/UV3RF73x-v0?auto=format&fit=crop&w=800&q=80",
         tag: "אגם",
       },
       {
@@ -554,7 +554,7 @@ export const days: DayData[] = [
         openHours: "8:30-17:00",
         price: "€28 מבוגר, €18 ילד (עם AirRofan)",
         tip: "AirRofan = גלישת אומגה בצורת עיט! שוכבים על בטן ומרחפים מעל ההרים. מדהים מגיל 8+. מסלולי הליכה נוספים בפסגה.",
-        image: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/f2u4B_UzmtI?auto=format&fit=crop&w=800&q=80",
         website: "https://www.rofan.at/",
         tag: "אקשן",
       },
@@ -583,7 +583,7 @@ export const days: DayData[] = [
     title: "כוחו של הטבע",
     subtitle: "מפלי שטויבן — הגבוהים בטירול",
     region: "tyrol",
-    heroImage: "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/PmzjVYzYnJA?auto=format&fit=crop&w=1200&q=80",
     description: "מפלי שטויבן הם המפלים הגדולים בטירול — 159 מטרים. אבל הגובה זה לא העיקר: הם בנו גשרי מתכת תלויים ומדרגות פלדה שעוברות ממש מעל נקודת הנפילה. יום מלא אדרנלין.",
     attractions: [
       {
@@ -594,7 +594,7 @@ export const days: DayData[] = [
         openHours: "פתוח תמיד (מאי-אוקטובר בגשרים)",
         price: "€8 כניסה (עם גשרים)",
         tip: "הגשרים התלויים הם הכוכב הגדול. מסלול מלא: 2 שעות. אחרי המפל — העמק עצמו יפה מאוד לנסיעה קצרה.",
-        image: "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/cVb82O4W-94?auto=format&fit=crop&w=800&q=80",
         website: "https://www.oetztal.com/en/summer/hiking/stuibenfall.html",
         tag: "מפל",
       },
@@ -624,7 +624,7 @@ export const days: DayData[] = [
     title: "אקסטרים ומים",
     subtitle: "Area 47 — הפארק הכי משוגע",
     region: "tyrol",
-    heroImage: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/EuQxoq_m55Y?auto=format&fit=crop&w=1200&q=80",
     description: "יום מים וג'ינגוני. Area 47 הוא פארק מים ואקסטרים אחד הגדולים בטירול — קמיקזה, קפיצות למים, אומגות, ומגלשות שגורמות לזעקות. לגיל 8 ומעלה.",
     attractions: [
       {
@@ -635,7 +635,7 @@ export const days: DayData[] = [
         openHours: "9:00-18:00 (קיץ)",
         price: "€45-55 לאדם (מלא יום)",
         tip: "פארק ענק: קנופי, קפיצות צוק לנהר, מגלשות מים ענק, אומגה. מתאים לגיל 8+. ילדים קטנים — יש אזור שלהם. הזמינו מראש!",
-        image: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/-une6BA9dGs?auto=format&fit=crop&w=800&q=80",
         website: "https://www.area47.at/",
         tag: "מים",
       },
@@ -663,7 +663,7 @@ export const days: DayData[] = [
     title: "עולם הדינוזאורים",
     subtitle: "פארק טריאס — ענקים קדומים",
     region: "tyrol",
-    heroImage: "https://images.unsplash.com/photo-1535083783855-aaab0b2f4a3e?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/kxqAfOjZTys?auto=format&fit=crop&w=1200&q=80",
     description: "פארק טריאס על הר שטיינפלאטה הוא אחד הפארקים הייחודיים ביותר בטירול — דינוזאורים בגודל טבעי, חפירות פליאונטולוגיות בחול, פלטפורמת תצפית שקופה תלויה באוויר, ומשחקי מים.",
     attractions: [
       {
@@ -674,7 +674,7 @@ export const days: DayData[] = [
         openHours: "9:00-17:30",
         price: "€13 מבוגר, €8 ילד",
         tip: "עולים ברכבל. בפסגה — דינוזאורים בגודל אמיתי, חפירות חול לילדים, ופלטפורמת זכוכית שנמשכת 2 מטר מעל פי הצוק. לא למי שמפחד מגובה!",
-        image: "https://images.unsplash.com/photo-1564760290292-23341e4df6ec?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/2zBjR1SFK7E?auto=format&fit=crop&w=800&q=80",
         website: "https://www.steinplatte.at/",
         tag: "ייחודי",
       },
@@ -703,7 +703,7 @@ export const days: DayData[] = [
     title: "נקיק הרוחות",
     subtitle: "לויטאש — חוצים לגרמניה!",
     region: "tyrol",
-    heroImage: "https://images.unsplash.com/photo-1455156218388-5e61b526818b?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/NMmxCtO1xqM?auto=format&fit=crop&w=1200&q=80",
     description: "נקיק לויטאש הוא הכי קסום למשפחות עם ילדים. הולכים על גשרי מתכת מעל נהר כחול, תחנות משחק עם סיפורי שדונים לאורך הדרך — ובאמצע חוצים את הגבול לגרמניה! המפל בסוף הוא הפרס.",
     attractions: [
       {
@@ -714,7 +714,7 @@ export const days: DayData[] = [
         openHours: "9:00-17:00 (מאי-אוקטובר)",
         price: "€7 מבוגר, €4 ילד",
         tip: "המסלול מלווה בסיפורים על שדוני יער ורוחות מים (כרטיסים לאורך הדרך). ילדים מתאהבים. בסוף חוצים לגרמניה — ל-Mittenwald.",
-        image: "https://images.unsplash.com/photo-1455156218388-5e61b526818b?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/EuQxoq_m55Y?auto=format&fit=crop&w=800&q=80",
         tag: "נקיק",
       },
       {
@@ -765,7 +765,7 @@ export const days: DayData[] = [
         openHours: "9:00-22:00",
         price: "€38 מבוגר, €24 ילד (3 שעות)",
         tip: "הקערות הצפות בחוץ נראות כמו UFO עם נוף להרים. מי מרפא טבעיים. מתחם Noah's Ark פנים לילדים עם מגלשות ואטרקציות. הזמינו מראש!",
-        image: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/dDTaJmKVl4o?auto=format&fit=crop&w=800&q=80",
         website: "https://www.aqua-dome.at/",
         tag: "ספא",
       },
@@ -793,7 +793,7 @@ export const days: DayData[] = [
     title: "פרידה מאוסטריה",
     subtitle: "עד פעם הבאה 🏔️",
     region: "transit",
-    heroImage: "https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/2zBjR1SFK7E?auto=format&fit=crop&w=1200&q=80",
     description: "יום הפרידה. אריזות אחרונות, קניית מזכרות, נסיעה נינוחה לנמל התעופה. אם יש זמן — עצירה אחרונה בדרך.",
     attractions: [
       {
@@ -804,7 +804,7 @@ export const days: DayData[] = [
         openHours: "9:00-18:00",
         price: "לפי קנייה 😄",
         tip: "Mozartkugeln (כדורי שוקולד), Tiroler Speck (נקניק עשון), Kristalle — מזכרות אייקוניות לקנות ברגע האחרון.",
-        image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/oExluu6sL2Q?auto=format&fit=crop&w=800&q=80",
         tag: "קניות",
       },
     ],

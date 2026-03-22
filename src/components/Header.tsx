@@ -6,7 +6,9 @@ const navLinks = [
   { href: "/", label: "בית" },
   { href: "/journey", label: "📖 יומן מסע" },
   { href: "/days/1", label: "ימים" },
-  { href: "/waterfalls", label: "מפלים" },
+  { href: "/waterfalls", label: "💧 מפלים" },
+  { href: "/lakes", label: "🌊 אגמים" },
+  { href: "/videos", label: "▶️ סרטונים" },
   { href: "/tips", label: "טיפים" },
   { href: "/gallery", label: "גלריה" },
 ];
@@ -23,9 +25,9 @@ export default function Header() {
             <span className="text-2xl">🏔️</span>
             <div className="leading-tight">
               <div className="font-black text-sm text-[#1a3d2b] group-hover:text-[#4a9eca] transition-colors">
-                אוסטריה
+                17 ימים באוסטריה
               </div>
-              <div className="font-medium text-xs text-[#6b7280]">המסע המשפחתי</div>
+              <div className="font-medium text-xs text-[#6b7280]">משפחת בן חיים</div>
             </div>
           </Link>
 

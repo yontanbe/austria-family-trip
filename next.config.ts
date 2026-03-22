@@ -20,7 +20,7 @@ const nextConfig: NextConfig = {
         headers: [
           {
             key: "Content-Security-Policy",
-            value: "default-src 'self'; img-src 'self' data: https://images.unsplash.com https://source.unsplash.com https://*.unsplash.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.youtube.com; frame-src https://www.youtube.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self';",
+            value: "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https: http:; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://maps.google.com https://www.google.com;",
           },
         ],
       },

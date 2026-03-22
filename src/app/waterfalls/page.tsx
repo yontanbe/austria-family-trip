@@ -1,6 +1,7 @@
 import { waterfalls } from "@/data/waterfalls";
 import WaterfallCard from "@/components/WaterfallCard";
 import Link from "next/link";
+import SafeImage from "@/components/SafeImage";
 
 export const metadata = {
   title: "10 המפלים הטובים ביותר | אוסטריה",
@@ -15,8 +16,8 @@ export default function WaterfallsPage() {
     <div className="min-h-screen bg-[#faf8f3]">
       {/* Hero */}
       <section className="relative h-72 md:h-96 overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80"
+        <SafeImage
+          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=80"
           alt="מפלים באוסטריה"
           className="w-full h-full object-cover"
         />

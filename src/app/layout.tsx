@@ -4,10 +4,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "17 ימים באוסטריה | מסע משפחתי מושלם",
+  title: "17 ימים באוסטריה — המסע של משפחת בן חיים",
   description: "מדריך מסע מלא לטיול משפחתי באוסטריה - זלצבורג וטירול. מפלים, טבע, מסלולים לילדים, מסעדות ועוד.",
   openGraph: {
-    title: "17 ימים באוסטריה | מסע משפחתי מושלם",
+    title: "17 ימים באוסטריה — המסע של משפחת בן חיים",
     description: "מדריך מסע מלא לטיול משפחתי באוסטריה - זלצבורג וטירול",
     images: ["https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200"],
   },

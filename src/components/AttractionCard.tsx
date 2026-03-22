@@ -1,4 +1,5 @@
 import { Attraction } from "@/data/types";
+import SafeImage from "@/components/SafeImage";
 
 const tagColors: Record<string, string> = {
   "מפל": "#4a9eca",
@@ -29,7 +30,7 @@ export default function AttractionCard({ attraction }: { attraction: Attraction 
     <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 adventure-card">
       {/* Image */}
       <div className="relative h-48 overflow-hidden">
-        <img
+        <SafeImage
           src={attraction.image}
           alt={attraction.hebrewName}
           className="w-full h-full object-cover"

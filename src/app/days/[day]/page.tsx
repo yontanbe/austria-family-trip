@@ -5,6 +5,7 @@ import { waterfalls } from "@/data/waterfalls";
 import AttractionCard from "@/components/AttractionCard";
 import RestaurantCard from "@/components/RestaurantCard";
 import WaterfallCard from "@/components/WaterfallCard";
+import SafeImage from "@/components/SafeImage";
 
 export function generateStaticParams() {
   return days.map((d) => ({ day: String(d.day) }));
@@ -45,7 +46,7 @@ export default async function DayPage({ params }: { params: Promise<{ day: strin
     <div className="min-h-screen bg-[#faf8f3]">
       {/* Hero */}
       <section className="relative h-72 md:h-96 overflow-hidden">
-        <img
+        <SafeImage
           src={dayData.heroImage}
           alt={dayData.title}
           className="w-full h-full object-cover"

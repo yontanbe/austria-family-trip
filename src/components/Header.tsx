@@ -4,9 +4,10 @@ import { useState } from "react";
 
 const navLinks = [
   { href: "/", label: "בית" },
-  { href: "/days/1", label: "הימים" },
+  { href: "/journey", label: "📖 יומן מסע" },
+  { href: "/days/1", label: "ימים" },
   { href: "/waterfalls", label: "מפלים" },
-  { href: "/tips", label: "טיפים מעשיים" },
+  { href: "/tips", label: "טיפים" },
   { href: "/gallery", label: "גלריה" },
 ];
 

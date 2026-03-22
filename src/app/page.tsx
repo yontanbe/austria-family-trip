@@ -4,6 +4,7 @@ import { waterfalls } from "@/data/waterfalls";
 import DayCard from "@/components/DayCard";
 import WaterfallCard from "@/components/WaterfallCard";
 import VideoEmbed from "@/components/VideoEmbed";
+import SafeImage from "@/components/SafeImage";
 
 const stats = [
   { value: "17", label: "ימי טיול", emoji: "📅" },
@@ -38,7 +39,7 @@ export default function HomePage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=90)",
+              "url(https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=90)",
           }}
         />
         <div className="hero-overlay absolute inset-0" />
@@ -110,8 +111,8 @@ export default function HomePage() {
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="relative rounded-3xl overflow-hidden h-64 adventure-card">
-              <img
-                src="https://images.unsplash.com/photo-1599140849279-1014532882fe?w=800&q=80"
+              <SafeImage
+                src="https://images.unsplash.com/photo-1599140849279-1014532882fe?auto=format&fit=crop&w=800&q=80"
                 alt="זלצבורג"
                 className="w-full h-full object-cover"
               />
@@ -134,8 +135,8 @@ export default function HomePage() {
               </div>
             </div>
             <div className="relative rounded-3xl overflow-hidden h-64 adventure-card">
-              <img
-                src="https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?w=800&q=80"
+              <SafeImage
+                src="https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?auto=format&fit=crop&w=800&q=80"
                 alt="טירול"
                 className="w-full h-full object-cover"
               />

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { WaterfallData } from "@/data/types";
+import SafeImage from "@/components/SafeImage";
 
 const difficultyColors = {
   "קל": { bg: "#d1fae5", text: "#065f46", emoji: "🟢" },
@@ -14,7 +15,7 @@ export default function WaterfallCard({ waterfall, featured = false }: { waterfa
     <div className={`bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 adventure-card ${featured ? "ring-2 ring-[#4a9eca]" : ""}`}>
       {/* Image */}
       <div className="relative overflow-hidden" style={{ height: featured ? "260px" : "200px" }}>
-        <img
+        <SafeImage
           src={waterfall.image}
           alt={waterfall.hebrewName}
           className="w-full h-full object-cover"

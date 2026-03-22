@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SafeImage from "@/components/SafeImage";
 
 export const metadata = {
   title: "גלריה | 17 ימים באוסטריה",
@@ -7,93 +8,93 @@ export const metadata = {
 
 const photos = [
   {
-    src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80",
     caption: "מפלי קרימל — 380 מטר, הגבוהים באירופה",
     region: "מעבר",
     day: 8,
   },
   {
-    src: "https://images.unsplash.com/photo-1599140849279-1014532882fe?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1599140849279-1014532882fe?auto=format&fit=crop&w=800&q=80",
     caption: "זלצבורג — העיר העתיקה",
     region: "זלצבורג",
     day: 6,
   },
   {
-    src: "https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?auto=format&fit=crop&w=800&q=80",
     caption: "הרי האלפים — הנוף הבלתי נשכח",
     region: "טירול",
   },
   {
-    src: "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
     caption: "האלשטאט — הכפר הכי מצולם בעולם",
     region: "זלצבורג",
     day: 5,
   },
   {
-    src: "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=800&q=80",
     caption: "מפל שטויבן — 159 מטר, עם גשרים תלויים",
     region: "טירול",
     day: 12,
   },
   {
-    src: "https://images.unsplash.com/photo-1564760290292-23341e4df6ec?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1564760290292-23341e4df6ec?auto=format&fit=crop&w=800&q=80",
     caption: "כביש גרוסגלוקנר — הדרך היפה באירופה",
     region: "זלצבורג",
     day: 4,
   },
   {
-    src: "https://images.unsplash.com/photo-1526080676457-4544bf0ebba9?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1526080676457-4544bf0ebba9?auto=format&fit=crop&w=800&q=80",
     caption: "עולם הקריסטלים סברובסקי",
     region: "טירול",
     day: 10,
   },
   {
-    src: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
     caption: "יערות הטחב הקסומים — מפל גולינג",
     region: "זלצבורג",
   },
   {
-    src: "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1455156218388-5e61b526818b?auto=format&fit=crop&w=800&q=80",
     caption: "אגם אכן — הפיורד של טירול",
     region: "טירול",
     day: 11,
   },
   {
-    src: "https://images.unsplash.com/photo-1561551782-44ab3b5b4acb?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1561551782-44ab3b5b4acb?auto=format&fit=crop&w=800&q=80",
     caption: "אינסברוק — העיר ההיסטורית",
     region: "טירול",
     day: 10,
   },
   {
-    src: "https://images.unsplash.com/photo-1548032885-b5e38734688a?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1548032885-b5e38734688a?auto=format&fit=crop&w=800&q=80",
     caption: "מכרות המלח הליין",
     region: "זלצבורג",
     day: 2,
   },
   {
-    src: "https://images.unsplash.com/photo-1609016267669-c51e8e8f6e88?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1609016267669-c51e8e8f6e88?auto=format&fit=crop&w=800&q=80",
     caption: "טירול — אגמים ירוקים",
     region: "טירול",
   },
   {
-    src: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=80",
     caption: "פארק מים — Aqua Dome",
     region: "טירול",
     day: 16,
   },
   {
-    src: "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=800&q=80",
     caption: "טירת הוהנוורפן",
     region: "זלצבורג",
     day: 2,
   },
   {
-    src: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=800&q=80",
     caption: "פארקים על הרים — טירול",
     region: "טירול",
   },
   {
-    src: "https://images.unsplash.com/photo-1569000188889-8d4ee80ccce2?w=800&q=80",
+    src: "https://images.unsplash.com/photo-1569000188889-8d4ee80ccce2?auto=format&fit=crop&w=800&q=80",
     caption: "נקיק ליכטנשטיין — גשרים בתוך הסלע",
     region: "זלצבורג",
     day: 3,
@@ -115,8 +116,8 @@ export default function GalleryPage() {
     <div className="min-h-screen bg-[#0f1a14] text-white">
       {/* Hero */}
       <section className="relative h-64 overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80"
+        <SafeImage
+          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=80"
           alt="גלריה"
           className="w-full h-full object-cover opacity-50"
         />
@@ -195,7 +196,7 @@ function PhotoCard({
   return (
     <div className="relative rounded-2xl overflow-hidden adventure-card group cursor-pointer">
       <div className="relative h-56">
-        <img
+        <SafeImage
           src={photo.src}
           alt={photo.caption}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

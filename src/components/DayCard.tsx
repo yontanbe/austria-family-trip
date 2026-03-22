@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { DayData } from "@/data/types";
+import SafeImage from "@/components/SafeImage";
 
 const regionLabels: Record<string, { label: string; color: string; emoji: string }> = {
   salzburg: { label: "זלצבורג", color: "#d4a017", emoji: "🌟" },
@@ -20,7 +21,7 @@ export default function DayCard({ day, compact = false }: DayCardProps) {
       <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 transition-all duration-300">
         {/* Image */}
         <div className="relative overflow-hidden" style={{ height: compact ? "160px" : "200px" }}>
-          <img
+          <SafeImage
             src={day.heroImage}
             alt={day.title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

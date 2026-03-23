@@ -4,37 +4,37 @@ import SafeImage from "./SafeImage";
 
 const slides = [
   {
-    image: "https://images.unsplash.com/photo-AwXz7lGkOqM?auto=format&fit=crop&w=1600&q=90",
+    image: "https://images.unsplash.com/photo-1573108724029-4c46571d6490?auto=format&fit=crop&w=1600&q=90",
     title: "האלשטאט",
     subtitle: "הכפר הכי יפה בעולם",
     day: 5,
   },
   {
-    image: "https://images.unsplash.com/photo-rZK9yr6ChFo?auto=format&fit=crop&w=1600&q=90",
+    image: "https://images.unsplash.com/photo-1564760290292-23341e4df6ec?auto=format&fit=crop&w=1600&q=90",
     title: "גרוסגלוקנר",
     subtitle: "הדרך הנופית הגדולה של אוסטריה",
     day: 4,
   },
   {
-    image: "https://images.unsplash.com/photo-cVb82O4W-94?auto=format&fit=crop&w=1600&q=90",
+    image: "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=1600&q=90",
     title: "מפלי קרימל",
     subtitle: "המפלים הגבוהים באירופה — 380 מטר",
     day: 8,
   },
   {
-    image: "https://images.unsplash.com/photo-JD4QZu7kLPA?auto=format&fit=crop&w=1600&q=90",
+    image: "https://images.unsplash.com/photo-1534759846116-5799c33ce22a?auto=format&fit=crop&w=1600&q=90",
     title: "אינסברוק",
     subtitle: "עיר בירת טירול עם הגג הזהב",
     day: 10,
   },
   {
-    image: "https://images.unsplash.com/photo-LcMLt2tE4kY?auto=format&fit=crop&w=1600&q=90",
+    image: "https://images.unsplash.com/photo-1455156218388-5e61b526818b?auto=format&fit=crop&w=1600&q=90",
     title: "אגם אכן",
     subtitle: "הפיורד של טירול",
     day: 11,
   },
   {
-    image: "https://images.unsplash.com/photo-oExluu6sL2Q?auto=format&fit=crop&w=1600&q=90",
+    image: "https://images.unsplash.com/photo-1599140849279-1014532882fe?auto=format&fit=crop&w=1600&q=90",
     title: "זלצבורג",
     subtitle: "מוצרט, מוזיקה ומבצר על הגבעה",
     day: 6,

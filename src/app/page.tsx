@@ -25,7 +25,7 @@ const videoLinks = [
     color: "#4a9eca",
     bg: "#f0f7ff",
     search: "Krimml Waterfalls Austria 4K",
-    image: "https://images.unsplash.com/photo-cVb82O4W-94?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=600&q=80",
   },
   {
     title: "האלשטאט",
@@ -34,7 +34,7 @@ const videoLinks = [
     color: "#d4a017",
     bg: "#fffbf0",
     search: "Hallstatt Austria village 4K drone",
-    image: "https://images.unsplash.com/photo-AwXz7lGkOqM?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1573108724029-4c46571d6490?auto=format&fit=crop&w=600&q=80",
   },
   {
     title: "גרוסגלוקנר",
@@ -43,7 +43,7 @@ const videoLinks = [
     color: "#1a3d2b",
     bg: "#f0f7f3",
     search: "Grossglockner High Alpine Road Austria drive 4K",
-    image: "https://images.unsplash.com/photo-rZK9yr6ChFo?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1564760290292-23341e4df6ec?auto=format&fit=crop&w=600&q=80",
   },
   {
     title: "אינסברוק",
@@ -52,7 +52,7 @@ const videoLinks = [
     color: "#cc3333",
     bg: "#fff5f5",
     search: "Innsbruck Austria city guide 4K",
-    image: "https://images.unsplash.com/photo-JD4QZu7kLPA?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1534759846116-5799c33ce22a?auto=format&fit=crop&w=600&q=80",
   },
 ];
 
@@ -73,7 +73,7 @@ export default function HomePage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-AwXz7lGkOqM?auto=format&fit=crop&w=1600&q=90)",
+              "url(https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=90)",
           }}
         />
         <div className="hero-overlay absolute inset-0" />
@@ -149,7 +149,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="relative rounded-3xl overflow-hidden h-64 adventure-card">
               <SafeImage
-                src="https://images.unsplash.com/photo-oExluu6sL2Q?auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1599140849279-1014532882fe?auto=format&fit=crop&w=800&q=80"
                 alt="זלצבורג"
                 className="w-full h-full object-cover"
               />
@@ -173,7 +173,7 @@ export default function HomePage() {
             </div>
             <div className="relative rounded-3xl overflow-hidden h-64 adventure-card">
               <SafeImage
-                src="https://images.unsplash.com/photo-LcMLt2tE4kY?auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1455156218388-5e61b526818b?auto=format&fit=crop&w=800&q=80"
                 alt="טירול"
                 className="w-full h-full object-cover"
               />
@@ -265,9 +265,9 @@ export default function HomePage() {
           </div>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 mb-6">
             {[
-              { name: "האלשטאט", day: 5, image: "AwXz7lGkOqM", desc: "הכפר הכי מצולם — יושב על שפת האגם", href: "/days/5" },
-              { name: "אגם אכן", day: 11, image: "LcMLt2tE4kY", desc: "הפיורד של טירול — ענק ודרמטי", href: "/days/11" },
-              { name: "גוסאו", day: 5, image: "ELZleqyQcQE", desc: "קרחון Dachstein ברקע — מדהים", href: "/days/5" },
+              { name: "האלשטאט", day: 5, image: "1573108724029-4c46571d6490", desc: "הכפר הכי מצולם — יושב על שפת האגם", href: "/days/5" },
+              { name: "אגם אכן", day: 11, image: "1455156218388-5e61b526818b", desc: "הפיורד של טירול — ענק ודרמטי", href: "/days/11" },
+              { name: "גוסאו", day: 5, image: "1506905925346-21bda4d32df4", desc: "קרחון Dachstein ברקע — מדהים", href: "/days/5" },
             ].map((lake) => (
               <Link key={lake.name} href={lake.href} className="relative rounded-2xl overflow-hidden h-52 adventure-card block group">
                 <SafeImage

@@ -12,7 +12,7 @@ const lakes = [
     hebrewName: "אגם האלשטאט",
     region: "זלצבורג — Salzkammergut",
     day: 5,
-    image: "https://images.unsplash.com/photo-AwXz7lGkOqM?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1573108724029-4c46571d6490?auto=format&fit=crop&w=800&q=80",
     description: "האגם הכי מצולם באוסטריה — הכפר האלשטאט יושב על שפתו ונשקף בשלמות במים. מראה אחד מהיפים שתראו בחייכם.",
     color: "#4a9eca",
     altitude: "508 מטר",
@@ -28,7 +28,7 @@ const lakes = [
     hebrewName: "אגם גוסאו",
     region: "זלצבורג — Gosau",
     day: 5,
-    image: "https://images.unsplash.com/photo-ELZleqyQcQE?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80",
     description: "הסוד שהתיירים מפספסים: יפה פי עשרה מהאלשטאט! קרחון Dachstein ברקע מוסיף קסם של אחר עולם.",
     color: "#1a3d2b",
     altitude: "933 מטר",
@@ -44,7 +44,7 @@ const lakes = [
     hebrewName: "אגם אכן",
     region: "טירול — Achenkirch",
     day: 11,
-    image: "https://images.unsplash.com/photo-LcMLt2tE4kY?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1455156218388-5e61b526818b?auto=format&fit=crop&w=800&q=80",
     description: "הפיורד של טירול — האגם הגדול ביותר בטירול, ממשיך למרחק עם הרים ירוקים בשני הצדדים. נראה יותר כמו נורווגיה מאשר אוסטריה.",
     color: "#4a9eca",
     altitude: "929 מטר",
@@ -60,7 +60,7 @@ const lakes = [
     hebrewName: "אגם יגרזה",
     region: "זלצבורג — Kleinarl",
     day: 1,
-    image: "https://images.unsplash.com/photo-LcMLt2tE4kY?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1455156218388-5e61b526818b?auto=format&fit=crop&w=800&q=80",
     description: "הסוד של המקומיים — אגם קטן, שקט ופסטורלי ממש ליד בסיס הלינה. הליכה נינוחה של 45 דקות סביבו מושלמת ליום הגעה.",
     color: "#d4a017",
     altitude: "1,100 מטר",
@@ -76,7 +76,7 @@ const lakes = [
     hebrewName: "אגם זל אם זה",
     region: "זלצבורג — Zell am See",
     day: 8,
-    image: "https://images.unsplash.com/photo-UV3RF73x-v0?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1548032885-b5e38734688a?auto=format&fit=crop&w=800&q=80",
     description: "עיירת נופש נהדרת על שפת אגם כחול שמקיף הרים — עצירת ביניים אידיאלית ביום המעבר מזלצבורג לטירול.",
     color: "#1a3d2b",
     altitude: "757 מטר",
@@ -92,7 +92,7 @@ const lakes = [
     hebrewName: "אגם קלאמזה",
     region: "זלצבורג — Kaprun",
     day: null,
-    image: "https://images.unsplash.com/photo-a9qsM5Z1Sbg?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
     description: "הפרס בסוף נקיק זיגמונד טון — אגם שקט ורגוע עם מגרש פיקניק מושלם. נגיש בקלות לכל המשפחה.",
     color: "#6b7280",
     altitude: "800 מטר",
@@ -114,7 +114,7 @@ export default function LakesPage() {
       {/* Hero */}
       <section className="relative h-64 md:h-96 overflow-hidden">
         <SafeImage
-          src="https://images.unsplash.com/photo-LcMLt2tE4kY?auto=format&fit=crop&w=1600&q=90"
+          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=90"
           alt="אגמי אוסטריה"
           className="w-full h-full object-cover"
         />

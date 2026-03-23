@@ -60,7 +60,7 @@ const photos = [
     day: 11,
   },
   {
-    src: "https://images.unsplash.com/photo-1561551782-44ab3b5b4acb?auto=format&fit=crop&w=800&q=80",
+    src: "https://images.unsplash.com/photo-1534759846116-5799c33ce22a?auto=format&fit=crop&w=800&q=80",
     caption: "אינסברוק — העיר ההיסטורית",
     region: "טירול",
     day: 10,
@@ -72,7 +72,7 @@ const photos = [
     day: 2,
   },
   {
-    src: "https://images.unsplash.com/photo-1609016267669-c51e8e8f6e88?auto=format&fit=crop&w=800&q=80",
+    src: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=800&q=80",
     caption: "טירול — אגמים ירוקים",
     region: "טירול",
   },
@@ -94,7 +94,7 @@ const photos = [
     region: "טירול",
   },
   {
-    src: "https://images.unsplash.com/photo-1569000188889-8d4ee80ccce2?auto=format&fit=crop&w=800&q=80",
+    src: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80",
     caption: "נקיק ליכטנשטיין — גשרים בתוך הסלע",
     region: "זלצבורג",
     day: 3,
